@@ -1,0 +1,31 @@
+{
+    "name": "first-package/posts",
+    "description": "Description",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ysmayyl Orazgeldiyew",
+            "email": "YsmayylHan0910@gmail.com",
+            "homepage": "https//github.com/first-package"
+        }
+    ],
+
+    "require": {
+        "php": "^8.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Packages\\Post\\" : "src"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Packages\\Post\\Providers\\PostsServiceProvider"
+            ]
+        }
+    }
+}
