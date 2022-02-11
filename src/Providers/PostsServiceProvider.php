@@ -5,7 +5,7 @@ namespace Packages\Post\Providers;
 use Illuminate\Support\ServiceProvider;
 use Packages\Post\Console\Commands\PostCommand;
 
-class PostsServiceProvidor extends ServiceProvider
+class PostsServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
